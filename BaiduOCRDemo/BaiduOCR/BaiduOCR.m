@@ -10,7 +10,8 @@
 #import "GTMBase64.h"
 
 static NSString *const BAIDUOCR_URL = @"http://apis.baidu.com/apistore/idlocr/ocr";
-static NSString *const BAIDUOCR_API_KEY = @"0b9614dcef30d2ef8be69fa73028371d";
+// 使用前必须使用自己的百度appkey
+static NSString *const BAIDUOCR_API_KEY = @"";
 static NSString *const BAIDUOCR_CONTENT_TYPE = @"application/x-www-form-urlencoded";
 
 @implementation BaiduOCR
